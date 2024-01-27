@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-27T15:25:26.926Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Whale/3.24.223.21 Safari/537.36" etag="HCqab4_UPyuiSQaPUF5F" version="23.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-27T15:31:02.589Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Whale/3.24.223.21 Safari/537.36" etag="VxU7jg2uS4by_C8WZ52F" version="23.0.2" type="github">
   <diagram name="페이지-1" id="JTPiTUJ4401fEsxCc7Fc">
     <mxGraphModel dx="1157" dy="668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -57,6 +57,12 @@
         </mxCell>
         <mxCell id="HM6ccCedCOGA6QJlXG_8-45" value="Player Data&lt;br&gt;&lt;br&gt;ID. Permisson. Money. Cash. Quest. Coords" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="720" y="238" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="HM6ccCedCOGA6QJlXG_8-48" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="540" width="240" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="HM6ccCedCOGA6QJlXG_8-49" value="&lt;h1&gt;Quest&lt;/h1&gt;&lt;div&gt;NPC 결과 입력&lt;/div&gt;&lt;div&gt;permision 부여&lt;/div&gt;&lt;div&gt;quest 부여&lt;/div&gt;&lt;div&gt;condition 변경&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="66.82" y="561" width="186.36" height="108" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
