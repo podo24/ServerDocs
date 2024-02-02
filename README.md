@@ -1,4 +1,21 @@
 # Server Docs
+## 서버 시스템 자원
+
+#### 빌드
+- 2802
+#### 메인 프레임 워크
+- 없음
+#### 테이터 베이스
+- MariaDB(v11.4)
+- OxMySQL(v2.8.0)
+#### 시스템 언어
+- Lua
+- Javascript
+#### UI
+- Node.js
+- Vite
+- Vue
+
 ## 스크립트 제작 우선도
 
 ### 높음
@@ -114,6 +131,8 @@ Description : 차량 id를 입력하면 해당 유저를 차에 태운 상태로
 
 ### DataBase 관련
 
+- 데이터 베이스를 관리할 때에는 Oxmysql 이라는 스크립트를 사용한다.
+
 - 여러번 불러올 필요가 없는 정적 데이터 ( ex) 고유번호, 아이디, 닉네임 ) 는 Main Framework 에 추가해 불러온다.
 
 - 데이터 흐름이 많은 스크립트(동시 데이터 처리량이 100개 이상으로 예상되는 경우)는 데이터 처리 최적화 작업 또는 Redis 등을 사용하여 관리한다.
@@ -123,3 +142,19 @@ Description : 차량 id를 입력하면 해당 유저를 차에 태운 상태로
 - RP와 관련있는 입/출금 내역 또는 팩션의 알림 문자와 같은 것은 휴대폰의 메시지 또는 앱 알림으로 보낸다.
 
 - RP와 관련없는 서버 공지 또는 리붓 알림과 같은 것은 UI 또는 GTA의 Notification을 사용해도 괜찮다.
+
+## 참고하면 좋은 사이트
+
+- [Fivem Docs](https://docs.fivem.net/docs/)
+
+- [Fivem KeyMaster](http://keymaster.fivem.net/)
+
+- [Github Docs](https://docs.github.com/ko)
+
+- [Fivem 유튜브 강의(Charles Hacks)](https://youtube.com/@charles-hacks?si=amZUoY5_FXAz7Fpj)
+
+- [OxMySQL 공식 사이트](https://overextended.dev/oxmysql)
+
+- [Node.js 공식 사이트](https://nodejs.org/ko)
+
+- [Vite 공식 사이트](https://ko.vitejs.dev/)
