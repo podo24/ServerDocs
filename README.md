@@ -45,6 +45,8 @@
 
 - 공지 시스템
 
+- 물건 시스템
+
 ## 스크립트 제작 가이드
 
 ### 스크립트 이름 작성법
@@ -60,11 +62,45 @@ ex) 작성자 - podo, 스크립트의 주요 기능 loadingscreen
 - 스크립트 제작후에 github를 사용하여 공유한다.
 
 - 자신이 만든 스크립트를 깃허브에 Pull Request를 통해 요청할시 상위 권한자를 통해 처리된다.
-  - 요청시 자신이 뭘 수정하였고, 추가하였는지 작성할 것
+  - 요청시 자신이 뭘 수정하였고, 추가하였는지 작성할 것 ex) NPC 스크립트를 추가하고, 권한을 받아오기 위해 groups.lua에 npcpermission 추가
 
 - 스크립트를 깃허브에 Merge하기 전 테스트를 반드시 진행한다.
 
-- 스크립트 제작 중 나오는 Event와 Command 등은 .md 파일을 통하여 문서화 한다.
+### 스크립트 관련
+
+- lua, C, typescript 중 무엇을 사용해도 상관없다.
+
+- 새로운 함수 또는 이벤트를 만들었을 시에는 주석을 통해 꼭 설명한다.
+
+```
+  예시 코드 (Lua)
+
+//text를 요소로 넣으면 채팅창에 출력해주는 함수
+function addChat(text)
+    TriggerEvent('chat:addMessage', {
+        args = { text }
+    })
+end
+```
+
+
+- 스크립트 제작 중 전역에 선언하는 Event, Command, Data 등은 .md 파일을 통하여 문서화 한다.
+
+```
+[CarSpawn]
+
+RegisterCommand('SpawnCar', function(source, args)
+  
+  ...
+
+end)
+
+Docs
+
+Name : SpawnCar
+Type : Command
+Description : 차량 id를 입력하면 해당 유저를 차에 태운 상태로 차량을 스폰하는 명령어
+```
 
 ### UI 관련
 
