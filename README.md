@@ -158,3 +158,7 @@ Description : 차량 id를 입력하면 해당 유저를 차에 태운 상태로
 - [Node.js 공식 사이트](https://nodejs.org/ko)
 
 - [Vite 공식 사이트](https://ko.vitejs.dev/)
+
+
+## 메모
+- ActiveMQ [설명](https://n1tjrgns.tistory.com/277)
